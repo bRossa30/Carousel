@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<meta charset="UTF-8">
+	<title>JQ</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+<body>
+	<div id="carousel">
+		<ul>
+			<li data-item="0" class="active"><img src="img/img1.jpg" alt=""></li>
+			<li data-item="1"><img src="img/img2.jpg" alt=""></li>
+			<li data-item="2"><img src="img/img3.jpg" alt=""></li>
+			<li data-item="3"><img src="img/img4.jpg" alt=""></li>
+			<li data-item="4"><img src="img/img5.jpg" alt=""></li>
+		</ul>
+		<button class="control" id="control-left"><i class="fa fa-chevron-left"></i></button>
+		<button class="control" id="control-right"><i class="fa fa-chevron-right"></i></button>
+		<div class="paginate">
+			<span class="dot active" data-target="0"></span>
+			<span class="dot" data-target="1"></span>
+			<span class="dot" data-target="2"></span>
+			<span class="dot" data-target="3"></span>
+			<span class="dot" data-target="4"></span>
+		</div>
+	</div>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
